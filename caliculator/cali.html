@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cali.css">
+</head>
+
+<body>
+    
+    <div class="main">
+        <div id="result"></div>
+        <div class="part1">
+            <button class="operator" id="vanish">AC</button>
+            <button onclick="validate('%')" class="operator">%</button>
+            <button onclick="del()" class="operator" id="delete">DEL</button>
+            <button onclick="validate('/')" class="operator">/</button>
+        </div>
+        <div class="part2">
+            <button onclick="validate('7')">7</button>
+            <button onclick="validate('8')">8</button>
+            <button onclick="validate('9')">9</button>
+            <button onclick="validate('*')" class="operator">*</button>
+        </div>
+        <div class="part3">
+            <button onclick="validate('4')">4</button>
+            <button onclick="validate('5')">5</button>
+            <button onclick="validate('6')">6</button>
+            <button onclick="validate('-')" class="operator">-</button>
+        </div>
+        <div class="part4">
+            <button onclick="validate('1')">1</button>
+            <button onclick="validate('2')">2</button>
+            <button onclick="validate('3')">3</button>
+            <button onclick="validate('+')" class="operator">+</button>
+        </div>
+        <div class="part5">
+            <button onclick="validate('00')">00</button>
+            <button onclick="validate('0')">0</button>
+            <button onclick="validate('.')">.</button>
+            <button onclick="final() " class="operator1">=</button>
+        </div>
+        
+    </div>
+    <script src="cali.js"></script>
+
+</body>
+
+</html>

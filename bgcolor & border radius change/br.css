@@ -1,0 +1,14 @@
+div{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+input{
+    outline: none;
+    border: none;
+    background-color: rgb(101, 15, 192);
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+}

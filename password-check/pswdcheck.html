@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="pswdcheck.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-    <div>
-        <input type="password" name="" id="pswd" placeholder="Enter password here">
+   <div>
+    <input type="password" placeholder="Enter your Password here" id="pswd" onkeydown="check(event)" autofocus>
     <i class="fa-solid fa-eye-slash" id="icon" onclick="cion()"></i>
-    </div>
-    <script src="index.js"></script>
+   </div>
+   <p></p>
+
+    <script src="pswdcheck.js"></script>
 </body>
 </html>
