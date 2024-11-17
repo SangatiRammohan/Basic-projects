@@ -27,6 +27,7 @@ body{
     align-items: center;
     gap: 10px;
     margin: 100px auto 0;
+    border-radius: 30px;
 }
 .main button{
     width: 50px;
