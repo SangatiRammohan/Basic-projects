@@ -1,0 +1,39 @@
+#div{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    background-color:cadetblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 50px black;
+}
+input{
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+button{
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#msg{
+   text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+img{
+    border-radius: 20px;
+  
+}
+    
